@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment_8 - DevFolio Bootstrap Portfolio</title>
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- BootStrap icons -->
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+    <!-- BootStrap Css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Glightbox Css -->
+    <link rel="stylesheet" href="./css/glightbox.min.css" />
+    <!-- General style sheet -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <!-- Animation style sheet -->
+    <link rel="stylesheet" href="./css/animation.css" />
+    <!-- Main style Sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Media style Sheet -->
+    <link rel="stylesheet" href="./css/media-screens.css" />
+  </head>
+  <body>
+    <!-- ! Navbar Start -->
+    <nav id="navbar" class="navbar navbar-expand-md bg-white fixed-top p-0">
+      <div class="container-fluid container-md">
+        <h1 class="navbar-brand m-0 fw-800 text-uppercase p-0">
+          <a class="" href="index.html">Daniels</a>
+        </h1>
+
+        <button
+          class="navbar-toggler px-0 border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item df-center">
+              <a class="nav-link active" aria-current="page" href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item df-center">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ! Navbar End -->
+
+    <!-- & Back to top Start -->
+    <div class="back-top position-fixed">
+      <a
+        href="#"
+        class="rounded-circle d-flex justify-content-center align-items-center text-white bg-dark"
+        ><i class="fa-solid fa-arrow-up"></i
+      ></a>
+    </div>
+    <!-- & Back to top End -->
+
+    <main
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+      data-bs-root-margin="0px 0px -60%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <!-- ^ Hero section Start -->
+      <section class="hero min-vh-100" id="hero">
+        <div class="container-fluid container-md df-center min-vh-100">
+          <div class="content">
+            <h5 class="text-center text-white fw-800">Hello</h5>
+            <h2 class="text-center text-white mt-4">
+              I Am <span class="p-0 typewriter"></span>
+            </h2>
+            <ul class="socials df-center list-unstyled gap-1 mt-4">
+              <li>
+                <a
+                  class="df-center"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="df-center" href="https://x.com/" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="df-center"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="df-center"
+                  href="https://www.behance.net/"
+                  target="_blank"
+                  ><i class="fa-brands fa-behance"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="df-center"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ^ Hero section End -->
+
+      <!-- ! About Section Start -->
+      <section class="about py-4r" id="about">
+        <div class="container-fluid container-md">
+          <div class="row gy-5 row-gap-5">
+            <div class="col-lg-5">
+              <div class="about-img">
+                <img
+                  src="./images/hero.jpg"
+                  class="w-100"
+                  alt="Jerry Daniels"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="right">
+                <h3 class="sub-title fw-800">About me.</h3>
+                <p class="title-info text-uppercase">
+                  UI / UX Designer & Web Developer
+                </p>
+                <p class="about-p mb-0">
+                  I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  It has survived not only five centuries, but also the leap
+                  into electronic but also the leap into electronic typesetting,
+                  remaining essentially unchanged. It was popularised in the
+                  1960s with the release of Letraset sheets containing.
+                </p>
+                <div class="prog-bars my-3 py-3">
+                  <div class="bar mb-3 pb-3">
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example with label"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 25px"
+                    >
+                      <div
+                        class="progress-bar df-center flex-row justify-content-between rounded-1 fw-medium px-2"
+                        style="width: 95%"
+                      >
+                        <span>Web Design</span><span class="percent">95%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar mb-3 pb-3">
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example with label"
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 25px"
+                    >
+                      <div
+                        class="progress-bar df-center flex-row justify-content-between rounded-1 fw-medium px-2"
+                        style="width: 80%"
+                      >
+                        <span>Branding</span><span class="percent">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar mb-1 pb-3">
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example with label"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 25px"
+                    >
+                      <div
+                        class="progress-bar df-center flex-row justify-content-between rounded-1 fw-medium px-2"
+                        style="width: 90%"
+                      >
+                        <span>Development</span><span class="percent">90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns d-flex">
+                  <a class="down-cv me-1" href="#" download>
+                    <button type="button" class="btn rounded-1">
+                      Download C.V
+                    </button>
+                  </a>
+                  <a class="contact-me" href="#contact">
+                    <button type="button" class="btn rounded-1">
+                      Contact Me
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ! About Section End -->
+
+      <!-- * Services Section Start -->
+      <section class="services" id="services">
+        <div class="container-fluid container-md">
+          <div class="title df-center flex-column">
+            <h2 class="fw-900 text-capitalize p-0">services.</h2>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-solid fa-laptop fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Web Design
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-solid fa-bullhorn fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Branding
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-solid fa-umbrella fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Development
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-regular fa-gem fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Creative Design
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-solid fa-display fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Fully Responsive
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-white text-center df-center flex-column"
+              >
+                <div class="service-icon df-center rounded-circle">
+                  <i class="fa-solid fa-camera fs-1"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-3 fw-800">
+                    Retina Ready
+                  </h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- * Services Section End -->
+
+      <!-- ~ Portfolio Section Start -->
+      <section class="portfolio pt-5 pb-4" id="works">
+        <div class="container-fluid container-md">
+          <div class="title df-center flex-column">
+            <h2 class="fw-900 text-capitalize p-0">Portfolio.</h2>
+          </div>
+
+          <div class="taps-btns df-center">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="active p-0 py-1 mx-3"
+                  id="pills-all-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-all"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-all"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="p-0 py-1 mx-3"
+                  id="pills-brand-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-brand"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-brand"
+                  aria-selected="false"
+                >
+                  Brand
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="p-0 py-1 mx-3"
+                  id="pills-design-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-design"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-design"
+                  aria-selected="false"
+                >
+                  Design
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="p-0 py-1 mx-3"
+                  id="pills-graphic-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-graphic"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-graphic"
+                  aria-selected="false"
+                >
+                  Graphic
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-all-tab"
+              tabindex="0"
+            >
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/1.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/1.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/2.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/2.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/3.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/3.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/4.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/4.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/5.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/5.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/6.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/6.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-brand"
+              role="tabpanel"
+              aria-labelledby="pills-brand-tab"
+              tabindex="0"
+            >
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/4.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/4.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/6.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/6.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-design"
+              role="tabpanel"
+              aria-labelledby="pills-design-tab"
+              tabindex="0"
+            >
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/2.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/2.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/5.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/5.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-graphic"
+              role="tabpanel"
+              aria-labelledby="pills-graphic-tab"
+              tabindex="0"
+            >
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/1.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/1.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/3.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/3.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="card h-100 overflow-hidden rounded-0 border-0 position-relative"
+                  >
+                    <div class="port-img overflow-hidden">
+                      <img
+                        class="w-100"
+                        src="./images/portfolio/5.jpg"
+                        alt="Lorem impsum dolor"
+                      />
+                    </div>
+                    <div class="card-body overlay df-center position-absolute">
+                      <div class="card-inner">
+                        <h5 class="card-title text-uppercase fw-bold">
+                          web design
+                        </h5>
+                        <div class="icons df-center">
+                          <a href="#0" class="mx-1 rounded-circle df-center"
+                            ><i class="fa-solid fa-link-slash"></i
+                          ></a>
+                          <a
+                            href="./images/portfolio/5.jpg"
+                            class="glightbox mx-1 rounded-circle df-center"
+                            data-gallery="gallery1"
+                            ><i class="fa-solid fa-magnifying-glass-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ~ Portfolio Section End -->
+
+      <!-- & Feedback Section Start -->
+      <section class="feedback" id="clients">
+        <div class="container-fluid container-md">
+          <div class="title df-center flex-column">
+            <h2 class="fw-900 text-capitalize p-0">Testimonials.</h2>
+          </div>
+
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide mb-5"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="img rounded-circle overflow-hidden m-auto">
+                  <img
+                    src="./images/1_New1.jpg"
+                    class="d-block w-100"
+                    alt="alex smith"
+                  />
+                </div>
+                <div class="content text-center my-3">
+                  <p class="fs-6 pb-1">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h3 class="text-capitalize py-0 m-1 mt-4 fs-6 fw-semibold">
+                    alex smith
+                  </h3>
+                  <p class="job fw-semibold">Envato Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img rounded-circle overflow-hidden m-auto">
+                  <img
+                    src="./images/1.jpg"
+                    class="d-block w-100"
+                    alt="alex smith"
+                  />
+                </div>
+                <div class="content text-center my-3">
+                  <p class="fs-6 pb-1">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h3 class="text-capitalize py-0 m-1 mt-4 fs-6 fw-semibold">
+                    alex smith
+                  </h3>
+                  <p class="job fw-semibold">Envato Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img rounded-circle overflow-hidden m-auto">
+                  <img
+                    src="./images/2.jpg"
+                    class="d-block w-100"
+                    alt="alex smith"
+                  />
+                </div>
+                <div class="content text-center my-3">
+                  <p class="fs-6 pb-1">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h3 class="text-capitalize py-0 m-1 mt-4 fs-6 fw-semibold">
+                    alex smith
+                  </h3>
+                  <p class="job fw-semibold">Envato Customer</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators gap-2">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- & Feedback Section End -->
+
+      <!-- & Facts Section Start -->
+      <section class="fact py-4r" id="fact">
+        <div class="container-fluid container-md">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 g-4">
+              <div class="fact-card text-center">
+                <div class="icon rounded-circle df-center">
+                  <i class="fa-solid fa-users mb-2"></i>
+                </div>
+                <div class="content">
+                  <h6 class="number my-2 fw-900">850</h6>
+                  <p class="fact-title text-capitalize fw-semibold mt-3">
+                    Happy Customers
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 g-4">
+              <div class="fact-card text-center">
+                <div class="icon rounded-circle df-center">
+                  <i class="fa-solid fa-thumbs-up mb-2"></i>
+                </div>
+                <div class="content">
+                  <h6 class="number my-2 fw-900">230</h6>
+                  <p class="fact-title text-capitalize fw-semibold mt-3">
+                    Complete Projects
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 g-4">
+              <div class="fact-card text-center">
+                <div class="icon rounded-circle df-center">
+                  <i class="fa-solid fa-bullhorn mb-2"></i>
+                </div>
+                <div class="content">
+                  <h6 class="number my-2 fw-900">9450</h6>
+                  <p class="fact-title text-capitalize fw-semibold mt-3">
+                    Lines Of Code
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 g-4">
+              <div class="fact-card text-center">
+                <div class="icon rounded-circle df-center">
+                  <i class="fa-solid fa-cloud-arrow-down mb-2"></i>
+                </div>
+                <div class="content">
+                  <h6 class="number my-2 fw-900">780</h6>
+                  <p class="fact-title text-capitalize fw-semibold mt-3 fs-6">
+                    Files Downloaded
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- & Facts Section End -->
+
+      <!-- ~ Team Section Start -->
+      <section class="team" id="team">
+        <div class="container-fluid container-md">
+          <div class="title df-center flex-column">
+            <h2 class="fw-900 text-capitalize p-0">Our Team.</h2>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+            <div class="col">
+              <div
+                class="card h-100 overflow-hidden rounded-0 rounded-bottom-2 border-0"
+              >
+                <div class="team-img overflow-hidden position-relative">
+                  <a href="#">
+                    <img class="w-100" src="./images/1.jpg" alt="John Doe" />
+                  </a>
+                  <div class="overlay position-absolute df-center">
+                    <ul class="list-unstyled df-center gap-3">
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.facebook.com/"
+                          ><i class="fa-brands fa-facebook-f fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://x.com/"
+                          ><i class="fa-brands fa-twitter fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.pinterest.com/"
+                          ><i class="fa-brands fa-pinterest fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.linkedin.com/"
+                          ><i class="fa-brands fa-linkedin-in fs-5"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body px-0 py-3 text-center">
+                  <div class="row content align-items-center">
+                    <div class="col-12 px-4">
+                      <h4 class="card-title my-2 fs-3">John Doe</h4>
+                      <h5 class="text-uppercase text-white fw-bold">
+                        Front-End Developer
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 overflow-hidden rounded-0 rounded-bottom-2 border-0"
+              >
+                <div class="team-img overflow-hidden position-relative">
+                  <a href="#">
+                    <img class="w-100" src="./images/2.jpg" alt="John Doe" />
+                  </a>
+                  <div class="overlay position-absolute df-center">
+                    <ul class="list-unstyled df-center gap-3">
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.facebook.com/"
+                          ><i class="fa-brands fa-facebook-f fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://x.com/"
+                          ><i class="fa-brands fa-twitter fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.pinterest.com/"
+                          ><i class="fa-brands fa-pinterest fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.linkedin.com/"
+                          ><i class="fa-brands fa-linkedin-in fs-5"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body px-0 py-3 text-center">
+                  <div class="row content align-items-center">
+                    <div class="col-12 px-4">
+                      <h4 class="card-title my-2 fs-3">Dave Wood</h4>
+                      <h5 class="text-uppercase text-white fw-bold">
+                        Back-End Developer
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 overflow-hidden rounded-0 rounded-bottom-2 border-0"
+              >
+                <div class="team-img overflow-hidden position-relative">
+                  <a href="#">
+                    <img
+                      class="w-100"
+                      src="./images/1.jpg"
+                      alt="John Doe"
+                    />
+                  </a>
+                  <div class="overlay position-absolute df-center">
+                    <ul class="list-unstyled df-center gap-3">
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.facebook.com/"
+                          ><i class="fa-brands fa-facebook-f fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://x.com/"
+                          ><i class="fa-brands fa-twitter fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.pinterest.com/"
+                          ><i class="fa-brands fa-pinterest fs-5"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="df-center rounded-circle"
+                          href="https://www.linkedin.com/"
+                          ><i class="fa-brands fa-linkedin-in fs-5"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body px-0 py-3 text-center">
+                  <div class="row content align-items-center">
+                    <div class="col-12 px-4">
+                      <h4 class="card-title my-2 fs-3">Claire Chedd</h4>
+                      <h5 class="text-uppercase text-white fw-bold">
+                        Back-End Developer
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ~ Team Section End -->
+
+      <!-- ^ Contact Section Start -->
+      <section class="contact" id="contact">
+        <div class="container-fluid container-md px-lg-5">
+          <div class="title df-center flex-column">
+            <h2 class="fw-900 text-capitalize p-0">Contact Us.</h2>
+          </div>
+
+          <div class="row row-cols-1 row-cols-lg-3 g-4 mb-5">
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-transparent text-center df-center flex-column"
+              >
+                <div class="contact-icon df-center rounded-circle">
+                  <i class="fa-solid fa-location-arrow fs-2"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-1 fw-800">
+                    Address
+                  </h5>
+                  <p class="card-text">
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/maps/place/6834+Hollywood+Blvd,+Los+Angeles,+CA+90028,+USA/@34.0953838,-118.3346394,13z/data=!4m6!3m5!1s0x80c2bf23e643b41f:0x770c76a77db1a8f0!8m2!3d34.101323!4d-118.339741!16s%2Fg%2F11fj_5wyvq?authuser=0&entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+                      >6834 Hollywood Blvd - Los Angeles CA</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-transparent text-center df-center flex-column"
+              >
+                <div class="contact-icon df-center rounded-circle">
+                  <i class="fa-solid fa-envelope fs-2"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-1 fw-800">Email</h5>
+                  <p class="card-text">
+                    <a href="mailto:Support@website.com">Support@website.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card h-100 border-0 rounded-1 bg-transparent text-center df-center flex-column"
+              >
+                <div class="contact-icon df-center rounded-circle">
+                  <i class="fa-solid fa-phone fs-2"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize mb-1 fw-800">Phone</h5>
+                  <p class="card-text">
+                    <a href="tel:">+20 010 2517 8918</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row bg-white pb-5 px-2 px-md-4 gy-5">
+            <div class="col-12">
+              <form class="pt-2 row g-3">
+                <div class="row g-3">
+                  <div class="col-12 col-lg-6">
+                    <input
+                      type="email"
+                      class="form-control p-2 px-3 rounded-2 border-0"
+                      id="validationDefault01"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control p-2 px-3 rounded-2 border-0"
+                      id="validationDefault01"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control p-2 px-3 rounded-2 border-0"
+                      id="validationTextarea"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button
+                      class="btn btn-primary rounded-2  py-2"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ^ Contact Section End -->
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="py-4">
+      <div class="container-fluid container-md df-center py-2">
+        <p class="p-0 m-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- BootStrap JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Glightbox JS -->
+    <script src="./js/glightbox.min.js"></script>
+    <!-- Jquery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

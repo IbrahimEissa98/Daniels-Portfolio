@@ -1,0 +1,123 @@
+:root{
+  --fc-h: #343434;
+  --fc-p: #748182;
+  --fc-a: #222;
+  --bgc-first: #fff;
+  --bgc-second: #f7f7f7;
+  --bgc-dark: #1c1c1c;
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
+}
+*{
+  transition: 0.5s;
+}
+a{
+  text-decoration: none !important;
+  color: inherit;
+  display: block;
+}
+body{
+  color: var(--fc-p);
+  background-color: var(--bgc-first);
+  font-family: var(--ff-poppins);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--fc-h);
+  font-family: var(--ff-montserrat);
+}
+.title {
+  margin-bottom: 60px;
+}
+.title h2 {
+  color: var(--fc-h);
+  font-size: 40px;
+  line-height: 48px;
+}
+.title h2 {
+  position: relative;
+  z-index: 2;
+}
+.title h2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-image: url(../images/dots.png);
+  height: 30px;
+  bottom: -10px;
+  z-index: -1;
+}
+h3.sub-title {
+  color: var(--fc-h);
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.df-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.py-4r{
+  padding-block: 4rem;
+}
+.bgc-sec{
+  background-color: var(--bgc-second);
+}
+.bgc-dark{
+  background-color: var(--bgc-dark);
+}
+.fw-800{
+  font-weight: 800;
+}
+.fw-900{
+  font-weight: 900;
+}
+
+
+/* * Loader Start */
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 50%;
+  transition: all 1s;
+}
+.loader:after{
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  bottom: 0;
+  transition: all 1s;
+}
+.loader-out:before {
+  bottom: 100%;
+}
+.loader-out:after {
+  top: 100%;
+}
+.loader .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #e8e8e8;
+  border-top: 10px solid #000;
+  -webkit-animation: rotate 1s infinite linear;
+  animation: rotate 1s infinite linear;
+  z-index: 2;
+}
+/* * Loader End */

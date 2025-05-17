@@ -1,0 +1,26 @@
+/* navbar start */
+@media (min-width: 768px) {
+  .navbar .nav-item{
+  margin-top: 0px;
+}
+@media (min-width: 992px) {
+  .navbar .nav-item{
+  margin-inline: 20px;
+  }
+}
+
+}
+/* navbar end */
+
+/* Hero start*/
+@media (min-width: 768px) {
+  #hero .content h2{
+    font-size: 44px;
+  }
+}
+@media (min-width: 992px) {
+  #hero .content h2{
+    font-size: 60px;
+  }
+}
+/* Hero end*/

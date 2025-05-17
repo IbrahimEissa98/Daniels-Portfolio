@@ -1,0 +1,58 @@
+@keyframes typing {
+  1%, 33% { content: ""; }
+  1.5%, 32.5% { content: "L"; }
+  2%, 32% { content: "La"; }
+  2.5%, 31.5% { content: "Lar"; }
+  3%, 31% { content: "Larr"; }
+  3.5%, 30.5% { content: "Larry"; }
+  4%, 30% { content: "Larry "; }
+  4.5%, 29.5% { content: "Larry D"; }
+  5%, 29% { content: "Larry Da"; }
+  5.5%, 28.5% { content: "Larry Dan"; }
+  6%, 28% { content: "Larry Dani"; }
+  6.5%, 27.5% { content: "Larry Danie"; }
+  7%, 27% { content: "Larry Daniel"; }
+  7.5%, 26.5% { content: "Larry Daniels"; }
+
+  33.5%, 66.5% { content: ""; }
+  34%, 66% { content: "D"; }
+  34.5%, 65.5% { content: "De"; }
+  35%, 65% { content: "Dev"; }
+  35.5%, 64.5% { content: "Deve"; }
+  36%, 64% { content: "Devel"; }
+  36.5%, 63.5% { content: "Develo"; }
+  37%, 63% { content: "Develop"; }
+  37.5%, 62.5% { content: "Develope"; }
+  38%, 62% { content: "Developer"; }
+  
+  67%, 100% { content: ""; }
+  67.5%, 99.5% { content: "D"; }
+  68%, 99% { content: "De"; }
+  68.5%, 98.5% { content: "Des"; }
+  69%, 98% { content: "Desi"; }
+  69.5%, 97.5% { content: "Desig"; }
+  70%, 97% { content: "Design"; }
+  70.5%, 96.5% { content: "Designe"; }
+  71%, 96% { content: "Designer"; }
+
+
+}
+
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

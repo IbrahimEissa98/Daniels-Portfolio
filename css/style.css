@@ -177,10 +177,12 @@
   --bs-card-color: var(--fc-p);
   font-size: 14px;
   line-height: 25px;
+  word-spacing: 2px;
 }
 #services .card h5{
   font-size: 18px;
   color: var(--fc-h);
+  word-spacing: normal;
 }
 #services .card .service-icon {
   width: 70px;
@@ -297,6 +299,7 @@
   max-width: 950px;
   margin: auto;
   font-size: 13px;
+  word-spacing: 2px;
 }
 .feedback .carousel-inner .content .job{
   font-size: 12px;
@@ -420,5 +423,6 @@
 footer{
   background-color: var(--bgc-dark);
   font-size: 13px;
+  word-spacing: 2px;
 }
 /* Footer End */
